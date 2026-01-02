@@ -1,5 +1,6 @@
 import './style.css';
 import { timelineData } from '@/constants/timeline';
+import Image from 'next/image';
 
 function Timeline() {
   return (
@@ -12,7 +13,7 @@ function Timeline() {
             <hr />
             <p>{item.description}</p>
           </div>
-          <img src={item.image} alt={item.alt} />
+          <Image src={item.image} alt={item.alt} />
         </article>
       ))}
     </section>
