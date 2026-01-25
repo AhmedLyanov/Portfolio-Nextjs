@@ -10,7 +10,7 @@ export default function Experiance() {
     <section className="experiance-work-section px-50 grid justify-center mb-24">
       <span
         className="experiance-work--title uppercase font-bold text-4xl mb-14 text-center"
-     
+
       >
         experience
       </span>
@@ -18,11 +18,11 @@ export default function Experiance() {
         {experiance.map((work, index) => (
           <div
             key={index}
-            className="experiance-work--item p-6 rounded-lg"
+            className="experiance-work--item p-6 rounded-lg "
             style={{ backgroundColor: 'var(--card)' }}
           >
-            <div className="experiance-work--company flex justify-between">
-              <div className="experiance-work--company--info flex gap-2.5">
+            <div className="experiance-work--company flex justify-between ">
+              <div className="flex flex-col gap-2.5 md:flex-row md:items-center">
                 <div className="experiance-work--company--image w-[34px] h-[32px] rounded-full overflow-hidden">
                   <img className="w-full h-full object-cover" src={work.logo} alt="Company" />
                 </div>

@@ -13,7 +13,7 @@ export default function Hero() {
           style={{ backgroundColor: 'var(--secondary)' }}
         >
           <img
-            src="https://i.postimg.cc/YS1M5vBy/photo-2025-11-11-10-16-46.jpg"
+            src="https://i.postimg.cc/15x03Tgc/ahmedlyanov.jpg"
             alt="Аватарка"
             className="w-full h-full object-cover"
             priority="true"
@@ -24,8 +24,13 @@ export default function Hero() {
         Привет, я Ахмед
       </h1>
       <p className="text-xl max-w-2xl mx-auto font-light text-[18px] leading-relaxed" style={{ color: 'var(--muted-foreground)' }}>
-        Создаю современные веб-приложения с использованием React, Next.js
-        и современных технологий
+        Я создаю современные, быстрые и масштабируемые веб-приложения с использованием React, Next.js и современных веб-технологий.
+        Работаю с продуманной архитектурой, чистым кодом и вниманием к пользовательскому опыту.
+
+        Имею опыт разработки SPA и SSR-приложений, взаимодействия с API, управления состоянием и оптимизации производительности.
+        Ценю читаемость кода, переиспользуемость компонентов и системный подход к разработке.
+
+        Постоянно развиваюсь, слежу за трендами фронтенда и стремлюсь делать не просто «работающие», а качественные и удобные продукты.
       </p>
       <div className="container-buttons w-full flex justify-center gap-4 mt-14">
         <button

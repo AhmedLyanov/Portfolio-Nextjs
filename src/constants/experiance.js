@@ -4,7 +4,7 @@ export const experiance = [
     title: "VA Group",
     description:
       "Был Middle Frontend-разработчиком, разрабатывал с нуля CRM-систему, платформа для разработчиков 'ProjectSync' работал в команде",
-    time: "Dec 2025 - 2026 Jun",
+    time: "Dec 2025 - ...",
   },
   {
     logo: "https://avatars.mds.yandex.net/i?id=2ece94220c525538016fa894fcb7b517_sr-7755287-images-thumbs&n=13",

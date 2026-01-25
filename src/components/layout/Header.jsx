@@ -3,19 +3,21 @@
 import Link from 'next/link';
 import { useTheme } from '@/contexts/ThemeContext';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { BurgerMenu } from '../ui/BurgerMenu';
 
 export default function Header() {
   const { theme } = useTheme();
 
   return (
     <header
-      className="p-[20px_172.5px_20px_172.5px] fixed w-full backdrop-blur-xl z-10 flex"
+      className="px-6 py-5 md:px-[172.5px]
+ fixed w-full backdrop-blur-xl z-10 flex md: p-0"
       style={{
         backgroundColor: theme === 'dark' ? 'rgba(15, 17, 23, 0.85)' : 'rgba(255, 255, 255, 0.85)',
         borderBottom: `1px solid ${theme === 'dark' ? 'var(--border)' : 'var(--border)'}`
       }}
     >
-      <div className="w-full flex justify-between align-middle items-center">
+      <div className="w-full flex justify-between align-middle items-center md: justify-around">
         <div className="">
           <h1
             className="text-2xl font-bold"
@@ -25,7 +27,7 @@ export default function Header() {
           </h1>
         </div>
 
-        <nav className="flex gap-20 justify-center items-center">
+        <nav className="hidden md: flex gap-20 justify-center items-center">
           <Link
             href="/"
             style={{ color: 'var(--primary)' }}
@@ -54,8 +56,12 @@ export default function Header() {
           >
             About
           </Link>
-          <ThemeToggle />
         </nav>
+
+        <div className="flex items-center">
+          <ThemeToggle />
+          <BurgerMenu />
+        </div>
       </div>
     </header>
   );
