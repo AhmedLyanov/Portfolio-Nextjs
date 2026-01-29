@@ -1,11 +1,21 @@
 export const projects = [
   {
-    title: "ProjectSync",
+    title: "FrontendHub",
     description: "Платформа для разработчиков",
     image:
       "https://i.postimg.cc/Nf5yns3G/photo-2025-12-04-00-13-36.jpg",
     link: "https://github.com/Ahmedlyanov/ProjectSync.git",
     technologies: ["React", "TypeScript", "Tailwind"],
+    status: "В процессе",
+  },
+  {
+    title: "VizorLite",
+    description: "Упрощенная платформа для видеоконференций",
+    image:
+      "https://raw.githubusercontent.com/AhmedLyanov/VizorLite/dev/docs/cover.png"
+    ,
+    link: "https://github.com/Ahmedlyanov/VizorLite.git",
+    technologies: ["React", "TypeScript", "Tailwind", "WebRTC"],
     status: "В процессе",
   },
   {
