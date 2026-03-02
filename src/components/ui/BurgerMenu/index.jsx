@@ -26,7 +26,7 @@ export function BurgerMenu() {
             onClick={() => setOpen(false)}
           >
             <nav
-              className="absolute right-0 top-0 w-64 rounded-2xl bg- p-6 flex flex-col gap-6"
+              className=" backdrop-blur-sm flex items-center w-full absolute right-0 top-0 w-64 rounded-2xl bg- p-6 flex flex-col gap-6"
               onClick={(e) => e.stopPropagation()}
             >
               <Link href="/" onClick={() => setOpen(false)}>Home</Link>
